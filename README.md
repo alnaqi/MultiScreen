@@ -1,6 +1,6 @@
-# SimpleApp
+# News Reader App
 
-SimpleApp is an Android application built with Jetpack Compose. It loads JSON data from assets, displays a list of news items, and navigates to a detail screen upon selection.
+News Reader App is an Android application built with Jetpack Compose. It loads JSON data from assets, displays a list of news items, and navigates to a detail screen upon selection.
 
 ## Features
 - Loads and parses JSON data from `assets/news.json`.
