@@ -1,18 +1,16 @@
-# MultiScreen
+# 📰 News Reader App  
 
-## Features
-- Loads and parses JSON data from `assets/news.json`.
-- Displays a list of news articles using `LazyColumn`.
-- Uses `NavHostController` for navigation between screens.
-- Implements a shared `ViewModel` to pass selected item data.
-- Loads and displays images using the `Coil` library.
+🎥 **App Review Video:** [Watch Here](https://drive.google.com/file/d/1nVfjEUmgpHWOvqaC-AFSotS0cTILYEku/view?usp=sharing)  
 
-## Screens
-### Main Screen
-- Displays a list of news articles with images.
-- Clicking on an article navigates to the Detail Screen.
+## Features  
+- Displays news articles from a local JSON file.  
+- Detailed view for each article.  
+- Image loading with Coil.  
+- Simple navigation between screens.  
 
-### Detail Screen
-- Shows the full details of the selected news article.
-- Displays the article image, title, content, authors, and more.
-- Includes a "Back" button to return to the Main Screen.
+## Technologies Used  
+- **Kotlin** + **Jetpack Compose**  
+- **Coil** for image loading  
+- **Navigation Component**  
+- **Gson** for JSON parsing  
+- **ViewModel** for data sharing  
